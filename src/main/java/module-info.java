@@ -1,9 +1,9 @@
-module com.example.sd3javafxui {
+module com.example.sd3javaxd {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
 
-    requires org.kordamp.bootstrapfx.core;
 
-    opens com.example.sd3javafxui to javafx.fxml;
-    exports com.example.sd3javafxui;
+    opens com.example.sd3javaxd to javafx.fxml;
+    exports com.example.sd3javaxd;
 }

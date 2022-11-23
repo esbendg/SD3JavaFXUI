@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>SD3JavaFXUI</artifactId>
+    <artifactId>SD3JavaXD</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>SD3JavaFXUI</name>
+    <name>SD3JavaXD</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,11 +25,7 @@
             <artifactId>javafx-fxml</artifactId>
             <version>19-ea+7</version>
         </dependency>
-        <dependency>
-            <groupId>org.kordamp.bootstrapfx</groupId>
-            <artifactId>bootstrapfx-core</artifactId>
-            <version>0.4.0</version>
-        </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -64,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.sd3javafxui/com.example.sd3javafxui.HelloApplication</mainClass>
+                            <mainClass>com.example.sd3javaxd/com.example.sd3javaxd.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
